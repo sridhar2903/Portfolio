@@ -43,10 +43,10 @@ class AllSections extends Component {
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
           <pre style={{ fontSize: '18px' }}  >
 
-            <a href="https://cocky-easley-667030.netlify.app/" target={'_blank'} >React Blog App<br /><br /></a>
-            <a href="https://sridhar2903.github.io/TODO_JS/" target={'_blank'} > Todo App<br /><br /></a>
-            <a href="https://sridhar2903.github.io/Digital_Clock/clock.html" target={'_blank'} >Digital Clock<br /><br /></a>
-            <a href="https://sridhar2903.github.io/Basic-HTML-Page/Basic-HTML-Page.html" target={'_blank'}  >Basic HTML Page<br /><br /></a>
+            <a href="https://cocky-easley-667030.netlify.app/" target={'_blank'} rel="noopener" >React Blog App<br /><br /></a>
+            <a href="https://sridhar2903.github.io/TODO_JS/" target={'_blank'}  rel="noopener"> Todo App<br /><br /></a>
+            <a href="https://sridhar2903.github.io/Digital_Clock/clock.html" target={'_blank'} rel="noopener" >Digital Clock<br /><br /></a>
+            <a href="https://sridhar2903.github.io/Basic-HTML-Page/Basic-HTML-Page.html" target={'_blank'} rel="noopener" >Basic HTML Page<br /><br /></a>
           </pre>
         </div>
         <br />

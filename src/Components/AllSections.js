@@ -43,10 +43,10 @@ class AllSections extends Component {
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
           <pre style={{ fontSize: '18px' }}  >
 
-            <a href="https://cocky-easley-667030.netlify.app/" target={'_blank'} rel="noopener" >React Blog App<br /><br /></a>
-            <a href="https://sridhar2903.github.io/TODO_JS/" target={'_blank'}  rel="noopener"> Todo App<br /><br /></a>
-            <a href="https://sridhar2903.github.io/Digital_Clock/clock.html" target={'_blank'} rel="noopener" >Digital Clock<br /><br /></a>
-            <a href="https://sridhar2903.github.io/Basic-HTML-Page/Basic-HTML-Page.html" target={'_blank'} rel="noopener" >Basic HTML Page<br /><br /></a>
+            <a href="https://cocky-easley-667030.netlify.app/" target={'_blank'} rel="noreferrer" >React Blog App<br /><br /></a>
+            <a href="https://sridhar2903.github.io/TODO_JS/" target={'_blank'}  rel="noreferrer"> Todo App<br /><br /></a>
+            <a href="https://sridhar2903.github.io/Digital_Clock/clock.html" target={'_blank'} rel="noreferrer" >Digital Clock<br /><br /></a>
+            <a href="https://sridhar2903.github.io/Basic-HTML-Page/Basic-HTML-Page.html" target={'_blank'} rel="noreferrer" >Basic HTML Page<br /><br /></a>
           </pre>
         </div>
         <br />
@@ -59,7 +59,7 @@ class AllSections extends Component {
           <br />
           <h1 style={{ color: '#105652' }}> Resume </h1>
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
-          <img src={res} alt='image nort found!' height='800px' />
+          <img src={res}  height='800px' />
         </div>
 
 

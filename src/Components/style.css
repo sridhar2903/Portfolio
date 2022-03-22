@@ -1,0 +1,69 @@
+li:hover{
+    color: orange;
+    cursor: pointer;
+    font-weight: bolder;
+    
+
+}
+li
+{
+    font-family: 'Lato', sans-serif;
+}
+#home
+{
+    background-image: url('https://wallpaperaccess.com/full/5651980.jpg');
+
+  
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+    
+}
+#about
+{
+    background-image: url('https://wallpapercave.com/wp/wp9641785.jpg');
+ color: whitesmoke;
+ text-align: center;
+ font-family: 'Lato', sans-serif;
+ border-radius: 20px;
+}
+
+#projects
+{
+    background-image: url('http://wp.visa4you.com/wp-content/uploads/2015/09/slider_landing_01.jpg');
+   
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   border-radius: 20px;
+}
+#resume
+{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover
+{
+    color: orangered;
+}
+#resume
+{
+    text-align: center;
+    background-color:#F7F7F7;
+}
+
+.pre
+
+{
+    font-family: 'Lato', sans-serif;
+}
+
+#contact
+{
+    background-image: url('https://1uslfb2c70yo4bh8wc265k3i-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/about-banner.jpg');
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}

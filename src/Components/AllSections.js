@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import res from './resumeimage.png'
+import res from './resumeimage.jpg'
 import './style.css'
 
 class AllSections extends Component {
@@ -59,7 +59,7 @@ class AllSections extends Component {
           <br />
           <h1 style={{ color: '#105652' }}> Resume </h1>
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
-          <img src={res} alt="image not found!!" height='800px' />
+          <img src={res} alt='not found'  height='800px' />
         </div>
 
 

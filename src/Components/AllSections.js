@@ -59,7 +59,7 @@ class AllSections extends Component {
           <br />
           <h1 style={{ color: '#105652' }}> Resume </h1>
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
-          <img src={res}  height='800px' />
+          <img src={res} alt="image not found!!" height='800px' />
         </div>
 
 

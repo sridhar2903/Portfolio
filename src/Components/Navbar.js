@@ -6,7 +6,7 @@ import './style.css'
         return (
             <>
                <div style={{position:'sticky',top:'0px'}}>
-            <ul className='ulextra' style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around',backgroundColor: '#FBF3E4',height: '74px',fontFamily: 'Inter,sans-serif'
+            <ul className='ulextra' style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around',backgroundColor: '#FBF3E4',height: '74px',fontFamily: 'Lato'
             ,position:'relative',bottom:'20px',zIndex:'1000'}}>
            
           <li style={{paddingTop:'20px'}}><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>

@@ -5,7 +5,7 @@ import './style.css'
     render() {
         return (
             <>
-               <div style={{position:'sticky',top:'0px'}}>
+               <div style={{position:'sticky',top:'0px'}} className='mobile-nav'>
             <ul className='ulextra' style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around',backgroundColor: '#FBF3E4',height: '74px',fontFamily: 'Lato'
             ,position:'relative',bottom:'20px',zIndex:'1000'}}>
            
@@ -15,6 +15,7 @@ import './style.css'
           
           <li style={{paddingTop:'20px'}}><Link  to="resume" spy={true} smooth={true}>Resume</Link></li>
           <li style={{paddingTop:'20px'}}><Link  to="contact" spy={true} smooth={true}>Contact</Link></li>
+          <i class="fa fa-bars" ></i>
             </ul>
             
            </div>

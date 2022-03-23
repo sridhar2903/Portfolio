@@ -3,20 +3,21 @@ import res from './resumeimage.jpg'
 
 import './style.css'
 
-class AllSections extends Component {
-  render() {
+function AllSections()
+{
+ 
     return (
       <>
 
         {/* HOME SECTION */}
-        <div id="home" style={{ height: 500, position: 'relative', bottom: '35px', zIndex: '-1000' }}>
+        <div id="home" style={{ height: 550, position: 'relative', bottom: '35px', zIndex: '-1000' }}>
           <br />
           <br />
 
           <h1 > Hi , Iam Sai Sridhar Devarakonda</h1>
           <h1 style={{ color: '#105652' }}>A Front-End Developer</h1>
           <br />
-          <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/168570351/original/fe86a10c5f53958c74f92bb8befe4d0c3b6ee10c/do-html-css-javascript-ajax-reactjs-psd-html-jquery.png" height='200px' style={{ borderRadius: '20px' }} alt='not found' />
+          <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/168570351/original/fe86a10c5f53958c74f92bb8befe4d0c3b6ee10c/do-html-css-javascript-ajax-reactjs-psd-html-jquery.png" height='200px' className='imglogo' style={{ borderRadius: '20px' }} alt='not found' />
 
         </div>
 
@@ -27,14 +28,14 @@ class AllSections extends Component {
           <br />
           <h1> About Me</h1>
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
-          <pre style={{ fontSize: '18px' }} className='pre'>
+          <p style={{ fontSize: '18px' }} className='pre'>
             I'm a  front-end developer .I'm interested in all kinds of visual communication,<br />
             but my major focus is on designing web applications.
 
-          </pre>
-          <pre style={{ fontSize: '18px' }} className='pre'>
+          </p>
+          <p style={{ fontSize: '18px' }} className='pre'>
             I enjoy turning complex problems into simple, beautiful and intuitive designs. <br />
-            When I'm not pushing pixels, you'll find me gaming,playing ukulele or listening to the Music.</pre>
+            When I'm not pushing pixels, you'll find me gaming,playing ukulele or listening to the Music.</p>
         </div>
         <br />
 
@@ -60,12 +61,12 @@ class AllSections extends Component {
 
 
         {/* RESUME SECTION */}
-        <div id="resume" style={{ height: 1000 }}>
+        <div id="resume" >
           <br />
           <br />
           <h1 style={{ color: '#105652' }}> Resume </h1>
           <hr style={{ width: '100px', height: '3px', backgroundColor: 'orange' }} />
-          <img src={res} alt='not found' height='800px' />
+          <img src={res} alt='not found' height='800px' className='resumeimage' />
         </div>
 
         {/* CONTACT SECTION */}
@@ -85,5 +86,5 @@ class AllSections extends Component {
       </>
     )
   }
-}
+
 export default AllSections

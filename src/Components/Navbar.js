@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 import {Link} from 'react-scroll'
+import { useState } from 'react'
+import Menubar from './Menubar'
 import './style.css'
- class Navbar extends Component {
-    render() {
+
+
+
+
+function Navbar ()
+
+   {
+    const [menu,setMenu]=useState(false)
+    
         return (
             <>
                <div style={{position:'sticky',top:'0px'}} className='mobile-nav'>
@@ -15,15 +24,21 @@ import './style.css'
           
           <li style={{paddingTop:'20px'}}><Link  to="resume" spy={true} smooth={true}>Resume</Link></li>
           <li style={{paddingTop:'20px'}}><Link  to="contact" spy={true} smooth={true}>Contact</Link></li>
-          <i class="fa fa-bars" ></i>
+          <i class="fa fa-bars" onClick={()=>setMenu(!menu)} ></i>
             </ul>
-            
+           
            </div>
-         
+
+           
+           <div className='setmenu'>
+             {menu&&<Menubar hidemenu={()=>setMenu(!menu)}/>}
             
+            </div>
+            <br/>
+            <br/>
             </>
          
         )
     }
-}
+
 export default  Navbar

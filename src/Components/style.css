@@ -40,6 +40,7 @@ li
 #resume
 {
     font-family: 'Lato', sans-serif;
+    height: 1000px;
 }
 a{
     text-decoration: none;
@@ -77,7 +78,9 @@ a:hover
 {
     display: none;
 }
-
+.setmenu{
+    display: none;
+}
 
 /* MEDIA queries for Mobile Responsive */
 
@@ -85,7 +88,7 @@ a:hover
 {
     body
     {
-       margin-right: -300px;
+     
        display: block;
        width: 100%;
     }
@@ -104,4 +107,56 @@ a:hover
     left: 5em;
     font-size: 25px;
     }
+
+    .menubarxd
+    {
+        display: block;
+    }
+    
+    .setmenu
+    {
+        display: block;
+        
+    }
+    .menustyle
+    {
+       position: fixed;
+       top: 3em;
+      left: 11em;
+      width:200px;
+      border-radius: 10px;
+   
+    }
+
+    #home
+    {
+        width: 370px;
+    }
+
+    #about
+    {
+        width: 370px;
+        
+    }
+    #projects
+    {
+        width: 370px;
+    }
+
+    #resume
+    {
+        width: 370px;
+        height: 800px;
+    }
+ .resumeimage
+ {
+     width: 370px;
+     height: 600px;
+ }
+
+ #contact
+ {
+     width: 370px;
+ }
+
 }

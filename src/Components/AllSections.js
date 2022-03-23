@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import res from './resumeimage.jpg'
 
 import './style.css'

@@ -14,7 +14,7 @@ function Navbar ()
     
         return (
             <>
-               <div style={{position:'sticky',top:'0px'}} className='mobile-nav'>
+               <div style={{position:'sticky',top:'0px'}} >
             <ul className='ulextra' style={{display: 'flex', listStyle: 'none', justifyContent: 'space-around',backgroundColor: '#FBF3E4',height: '74px',fontFamily: 'Lato'
             ,position:'relative',bottom:'20px',zIndex:'1000'}}>
            

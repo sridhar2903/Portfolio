@@ -5,7 +5,7 @@ const Menubar = ({ hidemenu }) => {
         <>
 
             <div className='menustyle' style={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#aaa9ad', fontFamily: 'Lato'
+                display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: 'black', fontFamily: 'Lato'
             }}>
 
                 <p style={{ paddingTop: '20px' }}><Link activeClass="active" to="home" spy={true} smooth={true} onClick={hidemenu}>Home</Link></p>

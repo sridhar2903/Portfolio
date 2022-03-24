@@ -18,12 +18,12 @@ function Navbar() {
           , position: 'relative', bottom: '20px', zIndex: '1000'
         }}>
 
-          <li style={{ paddingTop: '20px' }}><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
-          <li style={{ paddingTop: '20px' }}><Link to="about" spy={true} smooth={true}>About</Link></li>
-          <li style={{ paddingTop: '20px' }}><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+          <li style={{ paddingTop: '20px' }}><Link activeClass="active" to="home" spy={true} smooth={true} style={{color:'black'}}>Home</Link></li>
+          <li style={{ paddingTop: '20px' }}><Link to="about" spy={true} smooth={true}  style={{color:'black'}}>About</Link></li>
+          <li style={{ paddingTop: '20px' }}><Link to="projects" spy={true} smooth={true}  style={{color:'black'}}>Projects</Link></li>
 
-          <li style={{ paddingTop: '20px' }}><Link to="resume" spy={true} smooth={true}>Resume</Link></li>
-          <li style={{ paddingTop: '20px' }}><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
+          <li style={{ paddingTop: '20px' }}><Link to="resume" spy={true} smooth={true}  style={{color:'black'}}>Resume</Link></li>
+          <li style={{ paddingTop: '20px' }}><Link to="contact" spy={true} smooth={true}  style={{color:'black'}}>Contact</Link></li>
           <i class="fa fa-bars" onClick={() => setMenu(!menu)} ></i>
         </ul>
 
